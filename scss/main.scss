@@ -1,0 +1,97 @@
+@import "config";
+@import "utilities";
+
+body {
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+  font-family: "Raleway", sans-serif;
+  width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  z-index: 1;
+  background: rgba(lighten($primary-color, 2), 0.5);
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+}
+
+/* Typography */
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+
+  &.lg-heading {
+    font-size: 5rem;
+    background: rgba(lighten($primary-color, 2), 0.5);
+  }
+
+  &.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(lighten($primary-color, 2), 0.5);
+  }
+}
+
+/* Layout */
+
+img {
+  max-width: 100%;
+  padding-bottom: 1rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.mainHeader {
+  padding-top: 10rem;
+  border-bottom: #fff 2px solid;
+}
+
+.intro {
+  border-bottom: #fff 2px solid;
+}
+
+.services {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "sev sev sev";
+  grid-template-columns: repeat(3, 1fr);
+
+  .sev {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: #fff 5px solid;
+  }
+}
+
+.mainFooter {
+  a {
+    color: #fff;
+
+    &:hover {
+    }
+  }
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  height: 60px;
+}
+
+@import "mobile";

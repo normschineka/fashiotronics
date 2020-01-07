@@ -4,8 +4,13 @@
 body {
   background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
   font-family: "Raleway", sans-serif;
-  width: 95%;
+  height: 100%;
   margin: 0 auto;
+  line-height: 1.5;
+}
+
+main {
+  min-height: calc(100vh - 60px);
 }
 
 nav {
@@ -89,6 +94,7 @@ img {
 
 #main-footer {
   text-align: center;
+  color: #fff;
   padding: 1rem;
   background: darken($primary-color, 10);
   height: 60px;

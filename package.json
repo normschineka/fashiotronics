@@ -1,16 +1,20 @@
 {
-  "name": "fashiotronics-media",
+  "name": "fashiotronics",
   "version": "1.0.0",
   "description": "personal website",
   "main": "index.js",
+  "homepage": "https://normschineka.github.io/fashiotronica",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "zombie-the-dev",
+  "author": "Norms Chineka",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "font-awesome": "^4.7.0"
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"

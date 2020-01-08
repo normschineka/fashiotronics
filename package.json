@@ -1,22 +1,24 @@
 {
   "name": "fashiotronics",
   "version": "1.0.0",
-  "description": "personal website",
+  "description": "website layout",
   "main": "index.js",
-  "homepage": "https://normschineka.github.io/fashiotronics",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "Norms Chineka",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "bootstrap": "^4.3.1"
   },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normschineka/fashiotronics.git"
+  },
+  "author": "normschineka",
+  "license": "ISC"
+  },
+  "homepage": "https://github.com/normschineka/fashiotronics#readme"
 }
